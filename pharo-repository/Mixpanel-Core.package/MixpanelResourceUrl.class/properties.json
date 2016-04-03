@@ -1,0 +1,15 @@
+{
+	"category" : "Mixpanel-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"baseUrl",
+		"url" ],
+	"name" : "MixpanelResourceUrl",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

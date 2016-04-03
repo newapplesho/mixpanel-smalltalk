@@ -1,0 +1,14 @@
+{
+	"category" : "Mixpanel-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MixpanelPeople",
+	"pools" : [
+		 ],
+	"super" : "MixpanelEvent",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "ConfigurationOfMixpanel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastVersionLoad" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"project" ],
+	"name" : "ConfigurationOfMixpanel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

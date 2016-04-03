@@ -1,0 +1,3 @@
+defaults
+defaultProperties
+	self subclassResponsibility 

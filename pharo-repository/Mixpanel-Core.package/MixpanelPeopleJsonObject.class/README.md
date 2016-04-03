@@ -1,0 +1,1 @@
+https://mixpanel.com/help/questions/articles/what-properties-do-mixpanels-libraries-store-by-default

@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"default" : "ShoYoshida 4/2/2016 13:16",
+		"initialize" : "ShoYoshida 4/2/2016 13:16" },
+	"instance" : {
+		"at:" : "ShoYoshida 4/2/2016 13:54",
+		"at:ifAbsent:" : "ShoYoshida 4/2/2016 13:54",
+		"at:ifAbsentPut:" : "ShoYoshida 4/2/2016 13:54",
+		"at:put:" : "ShoYoshida 4/2/2016 13:54",
+		"defaultScheme" : "ShoYoshida 4/2/2016 11:30",
+		"scheme" : "ShoYoshida 4/2/2016 13:55",
+		"scheme:" : "ShoYoshida 4/2/2016 13:55",
+		"settingsDict" : "ShoYoshida 4/2/2016 11:19",
+		"token" : "ShoYoshida 4/2/2016 14:30",
+		"token:" : "ShoYoshida 4/2/2016 14:30" } }
