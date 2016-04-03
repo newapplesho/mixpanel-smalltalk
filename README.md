@@ -1,3 +1,3 @@
 # mixpanel-smalltalk
-Mixpanel Pharo Smalltalk Client Library
+[Mixpanel](https://mixpanel.com) Pharo Smalltalk Client Library
 
