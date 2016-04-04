@@ -5,7 +5,8 @@
 [Pharo Smalltalk](http://pharo.org/) 4.0
 
 ## Installation
-```
+
+```smalltalk
 Metacello new
     baseline: 'Mixpanel';
     repository: 'github://newapplesho/mixpanel-smalltalk:v0.1/pharo-repository';
@@ -82,5 +83,3 @@ json lastname:'Yoshida'.
 json at:'Favorite programming language' put:'Smalltalk'.
 people setUserProfiles: json.
 ```
-
-
