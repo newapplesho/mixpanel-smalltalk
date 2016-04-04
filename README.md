@@ -12,6 +12,17 @@ Metacello new
     load.
 ```
 
+or
+
+```smalltalk
+Gofer new
+url:'http://smalltalkhub.com/mc/newapplesho/mixpanel-smalltalk/main';
+    package: 'ConfigurationOfMixpanel';
+    load.
+(Smalltalk at: #ConfigurationOfMixpanel) load.
+```
+
+
 ## How to use
 
 ### Setup
@@ -25,16 +36,27 @@ MixpanelSettings default token:'PROJECT_TOKEN'.
 ### Sending events
 
 ```smalltalk
-tracker := MixpanelTracker new.tracker track:'Sent Message'.
+tracker := MixpanelTracker new.
+tracker track:'Sent Message'.
 ```
 
 ```smalltalk
-tracker := MixpanelTracker new.json := NeoJSONObject new.json at:'Programming language' put:'Pharo Smalltalk'.json at:'version' put:'4.0'.tracker track:'Sent Message' properties: json.
+tracker := MixpanelTracker new.
+json := NeoJSONObject new.
+json at:'Programming language' put:'Pharo Smalltalk'.
+json at:'version' put:'4.0'.
+tracker track:'Sent Message' properties: json.
 ```
 
 ```smalltalk
-tracker := MixpanelTracker new.json := MixpanelEngagementJsonObject new.json browser:'Safari'.json os:'Mac'.json referrer:'http://www.sorabito.com/'.json currentUrl:'https://allstocker.com/'.
-" XXXX.XXXX.XXXX.XXXX is ip address. "tracker track:'Sent Message' properties: json ip:'XXXX.XXXX.XXXX.XXXX'.
+tracker := MixpanelTracker new.
+json := MixpanelEngagementJsonObject new.
+json browser:'Safari'.
+json os:'Mac'.
+json referrer:'http://www.sorabito.com/'.
+json currentUrl:'https://allstocker.com/'.
+" XXXX.XXXX.XXXX.XXXX is ip address. "
+tracker track:'Sent Message' properties: json ip:'XXXX.XXXX.XXXX.XXXX'.
 ```
 
 ### Managing user identity
@@ -44,7 +66,8 @@ The Mixpanel library will assign a default unique identifier (we call it "distin
 ```smalltalk
 tracker := MixpanelTracker new.
 "distinct_id 13793"
-tracker identify:'13793'.tracker track:'Sent Message'.
+tracker identify:'13793'.
+tracker track:'Sent Message'.
 ```
 
 ### Storing user profiles
@@ -52,7 +75,12 @@ tracker identify:'13793'.tracker track:'Sent Message'.
 ```smalltalk
 tracker := MixpanelTracker new.
 tracker identify:'13793'.
-people := tracker people.json := MixpanelPeopleJsonObject new.json firstname:'Sho'.json lastname:'Yoshida'.json at:'Favorite programming language' put:'Smalltalk'.people setUserProfiles: json.
+people := tracker people.
+json := MixpanelPeopleJsonObject new.
+json firstname:'Sho'.
+json lastname:'Yoshida'.
+json at:'Favorite programming language' put:'Smalltalk'.
+people setUserProfiles: json.
 ```
 
 
