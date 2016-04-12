@@ -1,0 +1,2 @@
+*Mixpanel-Core
+handleMixpanelError: exception
