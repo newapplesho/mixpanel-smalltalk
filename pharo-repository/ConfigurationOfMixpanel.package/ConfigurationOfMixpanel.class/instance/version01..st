@@ -6,6 +6,6 @@ version01: spec
 		spec package: 'Neo-JSON-Core' with: 'Neo-JSON-Core-SvenVanCaekenberghe.33'.
 		spec
 			baseline: 'Mixpanel' with: [ 
-				spec repository:'github://newapplesho/mixpanel-smalltalk:v0.1/pharo-repository' ];
+				spec repository:'github://newapplesho/mixpanel-smalltalk:v0.1.1/pharo-repository' ];
 			import: 'Mixpanel' 
 	]
