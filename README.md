@@ -9,7 +9,7 @@
 ```smalltalk
 Metacello new
     baseline: 'Mixpanel';
-    repository: 'github://newapplesho/mixpanel-smalltalk:v0.1/pharo-repository';
+    repository: 'github://newapplesho/mixpanel-smalltalk:v0.1.1/pharo-repository';
     load.
 ```
 
