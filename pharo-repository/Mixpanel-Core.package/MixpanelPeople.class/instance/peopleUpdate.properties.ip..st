@@ -6,5 +6,5 @@ peopleUpdate: actionType properties: anObject ip: ipAddress
 		ifFalse: [ properties at: '$ip' put: ipAddress ].
 	properties at: actionType put: anObject.
 	url := self resourceUrl.
-	url queryAt: 'data' add: (ZnUtils encodeBase64: properties asString).
+	url queryAt: 'data' add: (ZnUtils encodeBase64: properties asString utf8Encoded).
 	^ self client httpPost: url contents: nil.

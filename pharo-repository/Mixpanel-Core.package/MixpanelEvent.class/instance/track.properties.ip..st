@@ -9,7 +9,7 @@ track: event properties: aJsonObject ip: ipAddress
 	json at: 'event' put: event.
 	json at: 'properties' put: properties.
 	url := self resourceUrl.
-	url queryAt: 'data' add: (ZnUtils encodeBase64: json asString).
+	url queryAt: 'data' add: (ZnUtils encodeBase64: json asString utf8Encoded).
 	self useIpAddress
 		ifTrue: [ url queryAt: 'ip' put: 1 ].
 	"url queryAt: 'img' put: 1."
