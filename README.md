@@ -2,7 +2,7 @@
 [Mixpanel](https://mixpanel.com) Pharo Smalltalk Client Library
 
 ## Supported Smalltalk Versions
-[Pharo Smalltalk](http://pharo.org/) 4.0, 5.0
+[Pharo Smalltalk](http://pharo.org/) 4.0, 5.0, 6.0
 
 ## Installation
 
