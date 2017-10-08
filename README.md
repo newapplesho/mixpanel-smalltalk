@@ -1,28 +1,17 @@
-# mixpanel-smalltalk
+# mixpanel-smalltalk [![Build Status](https://travis-ci.org/newapplesho/mixpanel-smalltalk.svg?branch=master)](https://travis-ci.org/newapplesho/mixpanel-smalltalk)
 [Mixpanel](https://mixpanel.com) Pharo Smalltalk Client Library
 
 ## Supported Smalltalk Versions
-[Pharo Smalltalk](http://pharo.org/) 4.0, 5.0, 6.0
+[Pharo Smalltalk](http://pharo.org/) 4.0, 5.0, 6.0, 6.1
 
 ## Installation
 
 ```smalltalk
 Metacello new
     baseline: 'Mixpanel';
-    repository: 'github://newapplesho/mixpanel-smalltalk:v0.1.2/pharo-repository';
+    repository: 'github://newapplesho/mixpanel-smalltalk/pharo-repository';
     load.
 ```
-
-or
-
-```smalltalk
-Gofer new
-url:'http://smalltalkhub.com/mc/newapplesho/mixpanel-smalltalk/main';
-    package: 'ConfigurationOfMixpanel';
-    load.
-(Smalltalk at: #ConfigurationOfMixpanel) load.
-```
-
 
 ## How to use
 
@@ -32,7 +21,6 @@ url:'http://smalltalkhub.com/mc/newapplesho/mixpanel-smalltalk/main';
 "Mixpanel project token, PROJECT_TOKEN"
 MixpanelSettings default token:'PROJECT_TOKEN'.
 ```
-
 
 ### Sending events
 
