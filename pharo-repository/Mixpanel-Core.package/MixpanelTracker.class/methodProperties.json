@@ -1,7 +1,8 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"defaultProperties" : "ShoYoshida 4/3/2016 12:07",
 		"people" : "ShoYoshida 4/3/2016 13:18",
-		"resourceUrl" : "ShoYoshida 4/2/2016 14:04" } }
+		"resourceUrl" : "ShoYoshida 4/2/2016 14:04"
+	},
+	"class" : { }
+}
