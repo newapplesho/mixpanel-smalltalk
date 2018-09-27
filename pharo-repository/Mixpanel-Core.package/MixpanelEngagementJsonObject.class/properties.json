@@ -1,14 +1,11 @@
 {
-	"category" : "Mixpanel-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "ShoYoshida 4/3/2016 11:14",
-	"instvars" : [
-		 ],
-	"name" : "MixpanelEngagementJsonObject",
-	"pools" : [
-		 ],
 	"super" : "NeoJSONObject",
-	"type" : "normal" }
+	"category" : "Mixpanel-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MixpanelEngagementJsonObject",
+	"type" : "normal"
+}
