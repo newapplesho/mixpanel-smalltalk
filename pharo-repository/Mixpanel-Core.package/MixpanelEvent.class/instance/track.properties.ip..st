@@ -13,4 +13,4 @@ track: event properties: aJsonObject ip: ipAddress
 	self useIpAddress
 		ifTrue: [ url queryAt: 'ip' put: 1 ].
 	"url queryAt: 'img' put: 1."
-	^ self client httpPost: url contents: nil.
+	^ self client httpGet: url 
