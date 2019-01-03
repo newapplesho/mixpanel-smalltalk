@@ -1,19 +1,20 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"client" : "ShoYoshida 4/2/2016 14:10",
-		"client:" : "ShoYoshida 4/2/2016 14:08",
-		"defaultProperties" : "ShoYoshida 4/3/2016 12:07",
 		"identify" : "ShoYoshida 4/2/2016 13:52",
-		"identify:" : "ShoYoshida 4/2/2016 13:45",
 		"resourceBaseUrl" : "ShoYoshida 4/2/2016 14:03",
-		"resourceUrl" : "ShoYoshida 4/2/2016 14:02",
-		"settings" : "ShoYoshida 4/2/2016 13:52",
-		"token" : "ShoYoshida 4/2/2016 12:47",
-		"token:" : "ShoYoshida 4/2/2016 12:47",
-		"track:" : "ShoYoshida 4/2/2016 14:53",
-		"track:properties:" : "ShoYoshida 4/2/2016 14:53",
-		"track:properties:ip:" : "ShoYoshida 10/25/2016 15:43",
 		"useIpAddress" : "ShoYoshida 4/3/2016 11:21",
-		"useIpAddress:" : "ShoYoshida 4/3/2016 11:20" } }
+		"track:" : "ShoYoshida 4/2/2016 14:53",
+		"defaultProperties" : "ShoYoshida 4/3/2016 12:07",
+		"token" : "ShoYoshida 4/2/2016 12:47",
+		"settings" : "ShoYoshida 4/2/2016 13:52",
+		"client:" : "ShoYoshida 4/2/2016 14:08",
+		"identify:" : "ShoYoshida 4/2/2016 13:45",
+		"useIpAddress:" : "ShoYoshida 4/3/2016 11:20",
+		"token:" : "ShoYoshida 4/2/2016 12:47",
+		"track:properties:" : "ShoYoshida 4/2/2016 14:53",
+		"track:properties:ip:" : "MasashiUmezawa 9/27/2018 15:37",
+		"resourceUrl" : "ShoYoshida 4/2/2016 14:02",
+		"client" : "ShoYoshida 4/2/2016 14:10"
+	},
+	"class" : { }
+}

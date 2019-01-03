@@ -1,14 +1,13 @@
 {
-	"category" : "Mixpanel-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"client" ],
-	"name" : "MixpanelRestClient",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "Mixpanel-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"client"
+	],
+	"name" : "MixpanelRestClient",
+	"type" : "normal"
+}

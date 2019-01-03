@@ -1,17 +1,16 @@
 {
-	"category" : "Mixpanel-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Mixpanel-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"token",
 		"identify",
 		"client",
-		"useIpAddress" ],
+		"useIpAddress"
+	],
 	"name" : "MixpanelEvent",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}
