@@ -1,14 +1,13 @@
 {
-	"category" : "Mixpanel-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "ShoYoshida 4/3/2016 11:18",
-	"instvars" : [
-		"people" ],
-	"name" : "MixpanelTracker",
-	"pools" : [
-		 ],
 	"super" : "MixpanelEvent",
-	"type" : "normal" }
+	"category" : "Mixpanel-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"people"
+	],
+	"name" : "MixpanelTracker",
+	"type" : "normal"
+}

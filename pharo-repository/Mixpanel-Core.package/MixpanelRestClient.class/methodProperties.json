@@ -1,9 +1,10 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"client" : "ShoYoshida 4/2/2016 11:35",
 		"createRequest" : "ShoYoshida 4/2/2016 14:50",
 		"defaultClient" : "ShoYoshida 4/2/2016 11:36",
-		"httpGet:" : "ShoYoshida 4/2/2016 15:08",
-		"httpPost:contents:" : "ShoYoshida 4/2/2016 15:05" } }
+		"client" : "ShoYoshida 4/2/2016 11:35",
+		"httpPost:contents:" : "ShoYoshida 4/2/2016 15:05",
+		"httpGet:" : "ShoYoshida 4/2/2016 15:08"
+	},
+	"class" : { }
+}
