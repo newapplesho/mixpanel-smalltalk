@@ -1,20 +1,19 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"region:" : "ShoYoshida 4/3/2016 11:16",
+		"browser:" : "ShoYoshida 4/2/2016 16:45",
+		"browserVersion:" : "ShoYoshida 4/2/2016 16:47",
+		"city:" : "ShoYoshida 4/3/2016 11:16",
+		"country:" : "ShoYoshida 4/3/2016 11:14",
+		"currentUrl:" : "ShoYoshida 4/2/2016 16:47",
+		"device:" : "ShoYoshida 4/2/2016 16:47",
+		"initialReferrer:" : "ShoYoshida 4/3/2016 13:37",
+		"initialReferringDomain:" : "ShoYoshida 4/3/2016 13:37",
 		"os:" : "ShoYoshida 4/2/2016 16:46",
 		"referrer:" : "ShoYoshida 4/2/2016 16:46",
-		"searchEngine:" : "ShoYoshida 4/3/2016 11:15",
-		"browser:" : "ShoYoshida 4/2/2016 16:45",
-		"initialReferrer:" : "ShoYoshida 4/3/2016 13:37",
-		"browserVersion:" : "ShoYoshida 4/2/2016 16:47",
 		"referringDomain:" : "ShoYoshida 4/2/2016 16:47",
+		"region:" : "ShoYoshida 4/3/2016 11:16",
 		"screenHeight:" : "ShoYoshida 4/2/2016 16:47",
-		"device:" : "ShoYoshida 4/2/2016 16:47",
-		"initialReferringDomain:" : "ShoYoshida 4/3/2016 13:37",
-		"country:" : "ShoYoshida 4/3/2016 11:14",
-		"city:" : "ShoYoshida 4/3/2016 11:16",
 		"screenWidth:" : "ShoYoshida 4/2/2016 16:47",
-		"currentUrl:" : "ShoYoshida 4/2/2016 16:47"
-	},
-	"class" : { }
-}
+		"searchEngine:" : "ShoYoshida 4/3/2016 11:15" } }

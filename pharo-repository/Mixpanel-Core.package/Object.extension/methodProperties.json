@@ -1,14 +1,12 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"mixpanel:json:" : "ShoYoshida 4/12/2016 11:48",
-		"handleMixpanelError:" : "MasashiUmezawa 9/27/2018 15:41",
-		"basicMixpanel:identify:json:" : "MasashiUmezawa 9/27/2018 15:41",
+		"basicMixpanel:identify:json:shouldFork:" : "ShoYoshida 4/12/2016 12:23",
+		"handleMixpanelError:" : "ShoYoshida 4/12/2016 14:04",
 		"mixpanel" : "ShoYoshida 4/12/2016 11:48",
 		"mixpanel:" : "ShoYoshida 4/12/2016 11:48",
-		"handleMixpanelErrorResponse:" : "MasashiUmezawa 9/27/2018 15:41",
 		"mixpanel:identify:json:" : "ShoYoshida 4/12/2016 12:20",
-		"mixpanel:identify:json:shouldFork:" : "MasashiUmezawa 9/27/2018 15:59",
-		"mixpanelJson" : "ShoYoshida 4/12/2016 11:46"
-	},
-	"class" : { }
-}
+		"mixpanel:identify:json:shouldFork:" : "ShoYoshida 4/12/2016 12:26",
+		"mixpanel:json:" : "ShoYoshida 4/12/2016 11:48",
+		"mixpanelJson" : "ShoYoshida 4/12/2016 11:46" } }

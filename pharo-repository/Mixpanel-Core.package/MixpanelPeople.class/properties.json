@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "MixpanelEvent",
 	"category" : "Mixpanel-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "MixpanelPeople",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "MixpanelEvent",
+	"type" : "normal" }

@@ -7,4 +7,4 @@ peopleUpdate: actionType properties: anObject ip: ipAddress
 	properties at: actionType put: anObject.
 	url := self resourceUrl.
 	url queryAt: 'data' add: (ZnUtils encodeBase64: properties asString utf8Encoded).
-	^ self client httpGet: url
+	^ self client httpPost: url contents: nil.
