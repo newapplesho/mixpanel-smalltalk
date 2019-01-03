@@ -1,20 +1,17 @@
 {
+	"class" : {
+		"default" : "ShoYoshida 4/2/2016 13:16",
+		"initialize" : "ShoYoshida 4/2/2016 13:16" },
 	"instance" : {
-		"scheme" : "ShoYoshida 4/2/2016 13:55",
-		"at:put:" : "ShoYoshida 4/2/2016 13:54",
 		"at:" : "ShoYoshida 4/2/2016 13:54",
-		"shouldFork" : "ShoYoshida 4/12/2016 12:18",
-		"defaultScheme" : "ShoYoshida 4/2/2016 11:30",
-		"at:ifAbsentPut:" : "ShoYoshida 4/2/2016 13:54",
-		"shouldFork:" : "ShoYoshida 4/12/2016 12:19",
-		"token" : "ShoYoshida 4/2/2016 14:30",
 		"at:ifAbsent:" : "ShoYoshida 4/2/2016 13:54",
+		"at:ifAbsentPut:" : "ShoYoshida 4/2/2016 13:54",
+		"at:put:" : "ShoYoshida 4/2/2016 13:54",
+		"defaultScheme" : "ShoYoshida 4/2/2016 11:30",
+		"scheme" : "ShoYoshida 4/2/2016 13:55",
 		"scheme:" : "ShoYoshida 4/2/2016 13:55",
 		"settingsDict" : "ShoYoshida 4/2/2016 11:19",
-		"token:" : "ShoYoshida 4/2/2016 14:30"
-	},
-	"class" : {
-		"initialize" : "ShoYoshida 4/2/2016 13:16",
-		"default" : "ShoYoshida 4/2/2016 13:16"
-	}
-}
+		"shouldFork" : "ShoYoshida 4/12/2016 12:18",
+		"shouldFork:" : "ShoYoshida 4/12/2016 12:19",
+		"token" : "ShoYoshida 4/2/2016 14:30",
+		"token:" : "ShoYoshida 4/2/2016 14:30" } }

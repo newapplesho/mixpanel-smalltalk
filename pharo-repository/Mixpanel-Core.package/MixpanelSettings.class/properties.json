@@ -1,15 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "Object",
 	"category" : "Mixpanel-Core",
 	"classinstvars" : [
-		"default"
-	],
-	"pools" : [ ],
-	"classvars" : [ ],
+		"default" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"settingsDict"
-	],
+		"settingsDict" ],
 	"name" : "MixpanelSettings",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
